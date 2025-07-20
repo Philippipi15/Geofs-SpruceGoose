@@ -1,0 +1,24 @@
+{
+    "model": "models/sprucegoose.dae",
+    "mass": 113400,
+    "wingSurface": 987,
+    "wingSpan": 97.5,
+    "engine": {
+        "type": "propeller",
+        "count": 8,
+        "thrust": 3000
+    },
+    "gear": {
+        "floats": true,
+        "type": "seaplane"
+    },
+    "livery": {
+        "diffuse": "models/textures/spruce_diffuse.png"
+    },
+    "cockpit": {
+        "enabled": true,
+        "view": {
+            "position": [5.0, 2.0, 15.0]
+        }
+    }
+}
